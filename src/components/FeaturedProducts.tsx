@@ -31,10 +31,10 @@ const cards = [
 
 const FeaturedProducts = () => {
   return (
-    <div className='max-w-7xl mt-[4rem]'>
+    <div className='max-w-7xl mt-[4rem] grid ml-[2rem] '>
         <Title level={2}>Featured Products</Title>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
             {cards.map(({image, title, description})=>(
                 <CustomCard image={image} title={title} description={description}  />
             ))}

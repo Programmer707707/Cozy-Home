@@ -12,7 +12,7 @@ type CustomCardProps = {
 const CustomCard: React.FC<CustomCardProps> = ({image, title, description}) => (
   <Card
     hoverable
-    style={{ width: 300 }}
+    style={{ width: 250,  }}
     cover={<img alt={title} src={image} />}
   >
     <Meta title={title} description={description} />
