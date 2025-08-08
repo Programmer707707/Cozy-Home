@@ -30,9 +30,9 @@ const StayUpdated = () => {
         />
         <button
           onClick={handleSubscribe}
-          className={`w-full sm:w-auto bg-[#ec7422] text-white rounded-xl font-extrabold px-6 py-2  hover:bg-[#e05f0f] transition-colors`}
+          className={`w-full h-10 sm:w-auto bg-[#ec7422] text-white rounded-xl font-extrabold px-6 py-2  hover:bg-[#e05f0f] transition-colors`}
         >
-          Subscribe
+          <a className='text-white w-2xl'>Subscribe</a>
         </button>
       </div>
     </div>

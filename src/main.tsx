@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import 'antd/dist/reset.css';
 import { ConfigProvider, theme } from 'antd';
+import 'leaflet/dist/leaflet.css';
 
 
 createRoot(document.getElementById('root')!).render(
