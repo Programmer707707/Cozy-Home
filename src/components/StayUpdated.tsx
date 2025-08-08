@@ -12,7 +12,7 @@ const StayUpdated = () => {
   };
 
   return (
-    <div className={`mt-16 px-4 text-center ${isDark ? 'bg-black text-white' : 'bg-[#FCFAF7] text-black'}`}>
+    <div className={`mt-16 px-4 text-center transition-colors duration-0 ease-in-out ${isDark ? 'bg-black text-white' : 'bg-[#FCFAF7] text-black'}`}>
       <Title level={1}>Stay Updated</Title>
       <Title level={4}>
         Sign up for our newsletter to receive exclusive offers and the latest news.
