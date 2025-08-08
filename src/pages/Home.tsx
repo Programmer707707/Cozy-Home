@@ -1,8 +1,8 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import Slider from '../components/Slider'
-import FeaturedProducts from '../components/FeaturedProducts'
-import StayUpdated from '../components/StayUpdated'
+import Layout from '../customComponents/Layout'
+import Slider from '../customComponents/Slider'
+import FeaturedProducts from '../customComponents/FeaturedProducts'
+import StayUpdated from '../customComponents/StayUpdated'
 
 const Home = () => {
   return (

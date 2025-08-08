@@ -4,7 +4,7 @@ import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ConfigProvider, theme } from 'antd';
 import { useThemeStore } from './stores/themeStore';
-import Loader from './components/Loader';
+import Loader from './customComponents/Loader';
 
 
 const Home = lazy(() => import('./pages/Home'));

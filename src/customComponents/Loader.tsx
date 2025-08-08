@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const Loader = () => {
   return (
     <StyledWrapper>
-      <div className="loader">
+      <div className='grid'>
+        <div className="loader">
         <div className="truckWrapper">
           <div className="truckBody">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 198 93" className="trucksvg">
@@ -39,6 +40,10 @@ const Loader = () => {
       h78.747C231.693,100.736,232.77,106.162,232.77,111.694z" />
           </svg>
         </div>
+      </div>
+      <div className='mt-4'>
+        <h2 className='text-center'>Let's go...</h2>
+      </div>
       </div>
     </StyledWrapper>
   );

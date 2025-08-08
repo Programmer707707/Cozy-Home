@@ -1,6 +1,6 @@
 import Title from 'antd/es/typography/Title';
 import photo from '../assets/about-us/photo.png';
-import Layout from '../components/Layout';
+import Layout from '../customComponents/Layout';
 
 const people = [
   {

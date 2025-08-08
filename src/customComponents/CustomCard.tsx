@@ -6,7 +6,7 @@ const { Meta } = Card;
 type CustomCardProps = {
   image: string;
   title: string;
-  description: string;
+  description: string | number;
 }
 
 const CustomCard: React.FC<CustomCardProps> = ({image, title, description}) => (

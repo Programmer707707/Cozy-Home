@@ -1,10 +1,11 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../customComponents/Layout'
+import Products from '../customComponents/Products'
 
 const Shop = () => {
   return (
     <Layout>
-      <div>Shop</div>
+      <Products/>
     </Layout>
   )
 }

@@ -1,5 +1,5 @@
-import Layout from '../components/Layout'
-import ContactForm from '../components/ContactForm'
+import Layout from '../customComponents/Layout'
+import ContactForm from '../customComponents/ContactForm'
 
 const Contact = () => {
   return (

@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <a href="/" className='text-inherit'><Title level={4}>Cozy Home</Title></a>
+              <Title level={4}><p className='text-inherit'>Cozy Home</p></Title>
             </a>
           </div>
           <div className="flex lg:hidden">
