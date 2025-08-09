@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ConfigProvider, theme } from 'antd';
 import { useThemeStore } from './stores/themeStore';
 import Loader from './customComponents/Loader';
+import ProductDetail from './pages/ProductDetail';
 
 
 const Home = lazy(() => import('./pages/Home'));
@@ -49,6 +50,7 @@ function App() {
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/favorites" element={<Favorites />} />
+                <Route path="/shop/:id" element={<ProductDetail/>}/>
               </Routes>
             )}
           </Suspense>
