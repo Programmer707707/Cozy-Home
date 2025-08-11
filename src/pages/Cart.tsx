@@ -1,8 +1,13 @@
-import React from 'react'
+import CartComponent from '../customComponents/CartComponent'
+import Layout from '../customComponents/Layout'
 
 const Cart = () => {
   return (
-    <div>Cart</div>
+    <Layout>
+      <div className='mt-10'>
+        <CartComponent/>
+      </div>
+    </Layout>
   )
 }
 

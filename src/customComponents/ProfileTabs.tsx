@@ -4,7 +4,6 @@ import ProfileInfo from './ProfileInfo';
 import OrderInfo from './OrderInfo';
 
 const Shell: React.FC<{ title: string; children: React.ReactNode }> = ({ title, children }) => (
-  // wider card, centered
   <div className="max-w-3xl w-full mx-auto rounded-2xl border border-zinc-200/60 bg-white shadow-sm">
     <div className="rounded-t-2xl bg-gradient-to-r from-fuchsia-600 to-violet-600 px-6 py-5">
       <h2 className="text-xl md:text-2xl font-semibold">{title}</h2>
