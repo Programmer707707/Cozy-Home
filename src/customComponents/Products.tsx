@@ -1,5 +1,4 @@
 // import CustomCard from './CustomCard'
-// Products.tsx
 import { ThreeDCardDemo } from "./ProductCard";
 import { data } from "../data";
 
