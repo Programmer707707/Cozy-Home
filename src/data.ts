@@ -31,7 +31,7 @@ export const data = [
   {
     id: 4,
     image: product4,
-    name: "Scandinavian TV Stand",
+    name: "Scandinavian TV",
     cost: 449,
   },
   {
