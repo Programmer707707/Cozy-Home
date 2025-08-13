@@ -18,8 +18,8 @@ A beautifully designed and responsive furniture shopping platform where users ca
 ## 🛠️ Tech Stack
 
 ### **Languages**
-- **TypeScript** (React framework)
-- **JavaScript** (React framework)
+- **TypeScript**
+- **JavaScript**
 - **HTML5**
 - **CSS3**
 
